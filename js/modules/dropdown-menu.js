@@ -3,7 +3,7 @@ export default function initDropdownMenu() {
   const dropdownMenus = document.querySelectorAll("[data-dropdown]"); //NODELIST
 
   dropdownMenus.forEach((menu) => {
-    ["touchstart", "click"].forEach((userEvent) => {
+    ["click"].forEach((userEvent) => {
       menu.addEventListener(userEvent, handleClick);
     });
   });
@@ -12,7 +12,7 @@ export default function initDropdownMenu() {
     event.preventDefault();
     this.classList.add("active");
 
-    outsideCLick(this, ["touchstart", "click"], () => {
+    outsideCLick(this, ["click"], () => {
       this.classList.remove("active");
     });
   }
