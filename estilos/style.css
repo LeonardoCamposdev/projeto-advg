@@ -1,0 +1,9 @@
+/* GLOBAL */
+@import "./global/global.css";
+@import "./global/utilidades/typography.css";
+@import "./global/utilidades/coolors.css";
+
+/* HOME */
+@import "./home/header.css";
+@import "./home/dropdown-menu.css";
+@import "./home/menu-mobile.css";
