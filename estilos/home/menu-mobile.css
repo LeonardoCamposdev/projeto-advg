@@ -7,7 +7,7 @@
     display: flex;
     background: var(--cor-3);
     border: none;
-    padding: .5rem 1rem;
+    padding: 0.8rem 1.2rem;
     border-radius: 4px;
     text-transform: uppercase;
     font-family: "IBM Plex Mono", monospace;
