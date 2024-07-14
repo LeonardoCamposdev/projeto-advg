@@ -38,4 +38,11 @@ img {
   background-image: linear-gradient(to bottom, #e0c292, #816E4F);
   color: var(--cor-0);
   cursor: pointer;
+  position:  relative;
+  top: 8px;
+  transition: .3s;
+}
+
+.btn1:hover{
+  top: 0px;
 }

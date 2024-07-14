@@ -1,20 +1,23 @@
 .introducao-bg{
   background: url(../../images/image-introducao.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: none;
   background-size: cover;
-  height: 500px;
 }
 
 .introducao-conteudo{
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 .introducao-conteudo span{
-  display: block;
-  padding-bottom: 20px;
+  display: inline-block;
+  padding: 5px 11px;
+  background-color: #bea7825d;
+  border-radius: 4px;
+  color: var(--cor-0);
 }
 
 .introducao-conteudo p{
@@ -23,4 +26,10 @@
   font-weight: 600;
   margin-bottom: 20px;
   color: var(--cor-0);
+}
+
+@media (max-width: 700px){
+  .introducao-bg{
+    background-position: center right;
+  }
 }
