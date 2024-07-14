@@ -1,0 +1,26 @@
+.introducao-bg{
+  background: url(../../images/image-introducao.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 500px;
+}
+
+.introducao-conteudo{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.introducao-conteudo span{
+  display: block;
+  padding-bottom: 20px;
+}
+
+.introducao-conteudo p{
+  font-size: 2.3rem;
+  max-width: 24ch;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--cor-0);
+}
