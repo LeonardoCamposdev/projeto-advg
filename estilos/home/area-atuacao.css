@@ -18,6 +18,7 @@
   padding: 88px 64px;
   border: 2px solid var(--cor-4);
   border-radius: 12px;
+  min-width: 300px;
 }
 
 .area-atuacao-lista img{
