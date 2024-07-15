@@ -37,7 +37,7 @@ img {
   font-size: 0.95rem;
   text-transform: uppercase;
   font-weight: 600;
-  background-image: linear-gradient(to bottom, #e0c292, #816E4F);
+  background-image: linear-gradient(to bottom, #e0c292, #554935);
   color: var(--cor-0);
   cursor: pointer;
   position:  relative;
