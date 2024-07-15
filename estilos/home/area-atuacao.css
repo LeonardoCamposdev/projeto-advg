@@ -37,6 +37,7 @@
 
 .area-atuacao-lista p{
   font-size: 0.9rem;
+  text-align: center;
 }
 
 @media (max-width:1350px){
