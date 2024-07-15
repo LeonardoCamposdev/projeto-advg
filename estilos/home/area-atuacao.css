@@ -14,7 +14,7 @@
 }
 
 .area-atuacao-lista li{
-  background-color: var(--cor-2);
+  background-color: var(--cor-1);
   padding: 88px 64px;
   border: 2px solid var(--cor-4);
   border-radius: 12px;
