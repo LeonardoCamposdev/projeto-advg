@@ -1,0 +1,38 @@
+.escritorio-conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  height: 500px;
+  align-items: center;
+}
+
+.escritorio-conteudo img{
+  height: 640px;
+  border-radius: 28px;
+}
+
+.escritorio-conteudo h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.escritorio-conteudo p{
+  font-size: .925rem;
+  line-height: 1.6;
+}
+
+
+@media (max-width:680px){
+  .escritorio-conteudo{
+    grid-template-columns: 1fr;
+  }
+
+  .escritorio-conteudo h1{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .escritorio-conteudo p{
+    text-align: center;
+  }
+}
