@@ -37,8 +37,20 @@
 
 .area-atuacao-lista p{
   font-size: 0.9rem;
-  text-align: center;
+  position: relative;
 }
+
+.area-atuacao-lista p::before{
+  content: "";
+  display: block;
+  width: 18px;
+  height: 11px;
+  background: url(../../icons/icon-arrow-3.png) no-repeat center;
+  position: absolute;
+  left: -25px;
+  top: 5px;
+}
+
 
 @media (max-width:1350px){
   .area-atuacao-lista{
