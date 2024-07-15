@@ -11,6 +11,11 @@
   border-radius: 28px;
 }
 
+.escritorio-conteudo p:nth-child(1){
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 .escritorio-conteudo h1{
   font-size: 2rem;
   font-weight: 500;
@@ -19,6 +24,7 @@
 .escritorio-conteudo p{
   font-size: .925rem;
   line-height: 1.6;
+  margin-bottom: 5px;
 }
 
 
