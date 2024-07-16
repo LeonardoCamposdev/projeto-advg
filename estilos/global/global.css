@@ -48,3 +48,17 @@ img {
 .btn1:hover{
   top: 0px;
 }
+
+.orcamento{
+  background-image: linear-gradient(to bottom, #e0c292, #554935);
+  position: fixed;
+  padding: 14px 14px;
+  bottom: 25px;
+  right: 20px;
+  border-radius: 50%;
+  z-index: 9999;
+}
+
+.orcamento img{
+  max-width: 32px;
+}
