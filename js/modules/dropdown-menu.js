@@ -9,7 +9,6 @@ export default function initDropdownMenu() {
   });
 
   function handleClick(event) {
-    event.preventDefault();
     this.classList.add("active");
 
     outsideCLick(this, ["click"], () => {

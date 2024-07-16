@@ -1,6 +1,10 @@
 [data-dropdown] {
   position: relative;
 }
+[data-dropdown] div{
+  cursor: pointer;
+}
+
 
 [data-dropdown] .dropdown-menu {
   display: none;
