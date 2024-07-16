@@ -59,6 +59,10 @@ img {
   z-index: 9999;
 }
 
+.orcamento:hover{
+  background-image: linear-gradient(to bottom, #e0c292e1, #554935d3);
+}
+
 .orcamento img{
   max-width: 32px;
 }
