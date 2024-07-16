@@ -52,7 +52,7 @@ img {
 .orcamento{
   background-image: linear-gradient(to bottom, #e0c292, #554935);
   position: fixed;
-  padding: 14px 14px;
+  padding: 16px 16px;
   bottom: 25px;
   right: 12px;
   border-radius: 50%;
