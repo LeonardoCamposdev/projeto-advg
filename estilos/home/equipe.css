@@ -27,7 +27,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: left;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .equipe-advg img{
@@ -126,7 +126,7 @@
 
   .equipe-advg-conteudo-colum-2 {
     position: initial; 
-    right: initial; 
+    grid-row: 2;
 }
 
   .equipe-advg img{
