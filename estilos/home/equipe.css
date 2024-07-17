@@ -124,6 +124,11 @@
     gap: 20px 0px;
   }
 
+  .equipe-advg-conteudo-colum-2 {
+    position: initial; 
+    right: initial; 
+}
+
   .equipe-advg img{
     max-width:  370px;
   }
