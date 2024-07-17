@@ -101,6 +101,9 @@
     padding: 40px 100px;
   }
   
+  .equipe-advg-conteudo-colum-2{
+    right: 445px;
+  }
 }
 
 @media (max-width: 915px){
