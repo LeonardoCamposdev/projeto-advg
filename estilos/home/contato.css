@@ -23,10 +23,6 @@
   gap: 30px;
 }
 
-.iframe-1,
-.iframe-2{
-
-}
 
 @media (max-width: 680px){
   .iframe-grid{
