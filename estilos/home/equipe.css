@@ -14,10 +14,17 @@
 .equipe-conteudo .contato-pessoal{
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 .equipe-conteudo .contato-pessoal img{
   max-width: 50px;
 }
+
+.equipe-conteudo .contato-pessoal a img:last-child{
+  max-width: 50px;
+  border-radius: 0px;
+}
+
 
 .equipe-advg{
   position: relative;
