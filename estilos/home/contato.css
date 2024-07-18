@@ -25,6 +25,13 @@
 
 .iframe-1,
 .iframe-2{
-  display: block;
-  border-radius: 10px;
+
+}
+
+@media (max-width: 680px){
+  .iframe-grid{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
 }
