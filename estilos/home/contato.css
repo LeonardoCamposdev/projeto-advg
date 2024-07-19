@@ -23,6 +23,57 @@
   gap: 30px;
 }
 
+.iframe-grid h3{
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.iframe-1 p,
+.iframe-2 p{
+  font-size: .925rem;
+  line-height: 1.6;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+
+.iframe-grid .icon-endereco::before{
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-mapa.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 65px;
+  top: -5px;
+}
+
+
+ .icon-cidade::before{
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-cep.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 65px;
+  top: -5px;
+}
+
+.icon-tel::before{
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-tel.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 65px;
+  top: -5px;
+}
 
 @media (max-width: 680px){
   .iframe-grid{
