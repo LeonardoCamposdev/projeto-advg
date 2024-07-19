@@ -40,9 +40,21 @@
   line-height: 1.6;
   margin-bottom: 5px;
   position: relative;
+  text-align: center;
 }
 
-.iframe-grid .icon-endereco::before {
+.iframe-1 .icon-endereco::before {
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-mapa.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -30px;
+  top: -5px;
+}
+.iframe-2 .icon-endereco::before {
   content: "";
   display: block;
   height: 32px;
@@ -54,7 +66,7 @@
   top: -5px;
 }
 
-.icon-cidade::before {
+.iframe-1 .icon-cidade::before {
   content: "";
   display: block;
   height: 32px;
@@ -66,7 +78,19 @@
   top: -5px;
 }
 
-.icon-tel::before {
+.iframe-2 .icon-cidade::before {
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-cep.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 35px;
+  top: -5px;
+}
+
+.iframe-1 .icon-tel::before {
   content: "";
   display: block;
   height: 32px;
@@ -74,7 +98,19 @@
   background: url(../../icons/icon-tel.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: -30px;
+  left: 47px;
+  top: -5px;
+}
+
+.iframe-2 .icon-tel::before {
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-tel.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 35px;
   top: -5px;
 }
 
