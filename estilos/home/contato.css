@@ -1,44 +1,48 @@
-.contato-bg{
+.contato-bg {
   background-color: var(--cor-0);
 }
 
-.contato-conteudo p{
+.contato-conteudo > p {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
 }
 
-
-.contato-conteudo h1{
+.contato-conteudo h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 80px;
 }
 
-
-.iframe-grid{
+.iframe-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
-.iframe-grid h3{
+.iframe-grid h3 {
   font-size: 1rem;
   text-align: center;
   margin-top: 20px;
 }
 
+.iframe-1 ul,
+.iframe-2 ul {
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+}
+
 .iframe-1 p,
-.iframe-2 p{
-  font-size: .925rem;
+.iframe-2 p {
+  font-size: 0.925rem;
   line-height: 1.6;
   margin-bottom: 5px;
   position: relative;
 }
 
-
-.iframe-grid .icon-endereco::before{
+.iframe-grid .icon-endereco::before {
   content: "";
   display: block;
   height: 32px;
@@ -46,12 +50,11 @@
   background: url(../../icons/icon-mapa.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: 65px;
+  left: -30px;
   top: -5px;
 }
 
-
- .icon-cidade::before{
+.icon-cidade::before {
   content: "";
   display: block;
   height: 32px;
@@ -59,11 +62,11 @@
   background: url(../../icons/icon-cep.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: 65px;
+  left: -30px;
   top: -5px;
 }
 
-.icon-tel::before{
+.icon-tel::before {
   content: "";
   display: block;
   height: 32px;
@@ -71,12 +74,12 @@
   background: url(../../icons/icon-tel.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: 65px;
+  left: -30px;
   top: -5px;
 }
 
-@media (max-width: 680px){
-  .iframe-grid{
+@media (max-width: 680px) {
+  .iframe-grid {
     grid-template-columns: 1fr;
     gap: 30px;
   }
