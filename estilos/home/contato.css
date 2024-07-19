@@ -66,6 +66,18 @@
   top: -5px;
 }
 
+.iframe-1 .buique::before {
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-cep.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 62px;
+  top: -5px;
+}
+
 .iframe-1 .icon-cidade::before {
   content: "";
   display: block;
@@ -78,17 +90,6 @@
   top: -5px;
 }
 
-.iframe-1 .buique::before {
-  content: "";
-  display: block;
-  height: 32px;
-  width: 32px;
-  background: url(../../icons/icon-cep.png);
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 45px;
-  top: -5px;
-}
 
 .iframe-2 .icon-cidade::before {
   content: "";
