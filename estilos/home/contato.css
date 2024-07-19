@@ -74,7 +74,19 @@
   background: url(../../icons/icon-cep.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: -30px;
+  left: 45px;
+  top: -5px;
+}
+
+.iframe-1 .buique::before {
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-cep.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 45px;
   top: -5px;
 }
 
