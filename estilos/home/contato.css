@@ -36,7 +36,7 @@
 
 .iframe-1 p,
 .iframe-2 p {
-  font-size: 0.925rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   margin-bottom: 5px;
   position: relative;
@@ -99,7 +99,7 @@
   background: url(../../icons/icon-cep.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: 35px;
+  left: 32px;
   top: -5px;
 }
 
