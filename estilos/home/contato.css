@@ -91,6 +91,18 @@
 }
 
 
+.iframe-2 .arcoverde::before {
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url(../../icons/icon-cep.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 40px;
+  top: -5px;
+}
+
 .iframe-2 .icon-cidade::before {
   content: "";
   display: block;
@@ -111,8 +123,8 @@
   background: url(../../icons/icon-tel.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: 47px;
-  top: -5px;
+  left: 38px;
+  top: -4px;
 }
 
 .iframe-2 .icon-tel::before {
@@ -123,7 +135,7 @@
   background: url(../../icons/icon-tel.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: 35px;
+  left: 27px;
   top: -5px;
 }
 
