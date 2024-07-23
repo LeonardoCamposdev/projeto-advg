@@ -170,6 +170,12 @@
 
 @media (max-width:440px){
   .equipe-advg img{
-    max-width:  350px;
+    max-width:  360px;
+  }
+}
+
+@media (max-width:425px){
+  .equipe-advg img{
+    max-width:  320px;
   }
 }
