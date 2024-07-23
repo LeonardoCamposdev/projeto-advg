@@ -25,6 +25,10 @@
   font-size: 1.2em;
 }
 
+.footer-contato p{
+  font-size: 0.925rem;
+}
+
 .footer-redes{
   display: flex;
   gap: 20px;
