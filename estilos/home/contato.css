@@ -57,7 +57,7 @@ iframe:hover{
   display: block;
   height: 32px;
   width: 32px;
-  background: url(../../icons/icon-mapa.png);
+  background: url(../../icons/icon-localizacao.png);
   background-repeat: no-repeat;
   position: absolute;
   left: -30px;
@@ -68,7 +68,7 @@ iframe:hover{
   display: block;
   height: 32px;
   width: 32px;
-  background: url(../../icons/icon-mapa.png);
+  background: url(../../icons/icon-localizacao.png);
   background-repeat: no-repeat;
   position: absolute;
   left: -30px;
@@ -80,7 +80,7 @@ iframe:hover{
   display: block;
   height: 32px;
   width: 32px;
-  background: url(../../icons/icon-cep.png);
+  background: url(../../icons/icon-mapa-2.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 62px;
@@ -92,7 +92,7 @@ iframe:hover{
   display: block;
   height: 32px;
   width: 32px;
-  background: url(../../icons/icon-cep.png);
+  background: url(../../icons/icon-mapa-2.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 45px;
@@ -105,7 +105,7 @@ iframe:hover{
   display: block;
   height: 32px;
   width: 32px;
-  background: url(../../icons/icon-cep.png);
+  background: url(../../icons/icon-mapa-2.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 40px;
@@ -117,7 +117,7 @@ iframe:hover{
   display: block;
   height: 32px;
   width: 32px;
-  background: url(../../icons/icon-cep.png);
+  background: url(../../icons/icon-mapa-2.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 32px;
@@ -129,10 +129,10 @@ iframe:hover{
   display: block;
   height: 32px;
   width: 32px;
-  background: url(../../icons/icon-tel.png);
+  background: url(../../icons/icon-tel-2.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: 38px;
+  left: 35px;
   top: -4px;
 }
 
@@ -141,10 +141,10 @@ iframe:hover{
   display: block;
   height: 32px;
   width: 32px;
-  background: url(../../icons/icon-tel.png);
+  background: url(../../icons/icon-tel-2.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: 27px;
+  left: 25px;
   top: -5px;
 }
 
