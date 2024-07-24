@@ -17,8 +17,9 @@
 }
 
 .dt-pergunta{
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: 600;
   padding: 12px;
   margin-bottom: 10px;
   cursor: pointer;
