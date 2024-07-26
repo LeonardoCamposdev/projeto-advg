@@ -10,7 +10,7 @@
   padding-bottom: 120px;
 }
 
-.introducao-conteudo span{
+.span-oab{
   display: inline-block;
   padding: 5px 11px;
   background-color: #bea7825d;
@@ -24,6 +24,10 @@
   font-weight: 600;
   margin-bottom: 20px;
   color: var(--cor-0);
+}
+
+.introducao-conteudo button > span{
+  
 }
 
 @media (max-width: 700px){
