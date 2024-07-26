@@ -16,7 +16,18 @@
   gap: 18px;
   overflow: hidden;
   padding: 10px;
+  position: relative;
+  margin-bottom: 5px;
 }
+
+.equipe-conteudo .contato-pessoal p{
+  background-color: var(--cor-4);
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
 .equipe-conteudo .contato-pessoal img {
   max-width: 40px;
   transition: filter, transform 0.6s;
