@@ -1,0 +1,44 @@
+.js [data-anime="scroll-left"] {
+  opacity: 0;
+  transform: translate3d(-60px, 0, 0);
+  transition: .8s;
+}
+
+.js [data-anime="scroll-left"].ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js [data-anime="scroll-right"] {
+  opacity: 0;
+  transform: translate3d(20px, 0, 0);
+  transition: .8s;
+}
+
+.js [data-anime="scroll-right"].ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js [data-anime="scroll-up"]{
+  opacity: 0;
+  transform: translate3d(0, 60px, 0);
+  transition: .8s;
+}
+
+.js [data-anime="scroll-up"].ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js [data-anime="scroll-down"]{
+  opacity: 0;
+  transform: translate3d(0, -60px, 0);
+  transition: .8s;
+}
+
+.js [data-anime="scroll-down"].ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  z-index: 899;
+}
