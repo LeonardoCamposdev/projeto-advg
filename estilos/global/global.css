@@ -39,15 +39,28 @@ img {
   background-image: linear-gradient(to bottom, #e0c292, #554935);
   color: var(--cor-0);
   cursor: pointer;
-  position: relative;
   top: 8px;
   transition: .3s;
   display: block;
   margin-bottom: 20px;
+  position: relative;
 }
 
-.btn1:hover{
-  top: 0px;
+.btn1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  font-weight: bolder;
+  background-color: var(--cor-0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+  left: 100px;
+}
+
+.btn1:hover::after {
+  width: 52%;
 }
 
 .btn2{
@@ -61,15 +74,28 @@ img {
   background-image: linear-gradient(to bottom, #e0c292, #554935);
   color: var(--cor-0);
   cursor: pointer;
-  position: relative;
   top: 8px;
   transition: .3s;
   display: block;
   margin-bottom: 20px;
+  position: relative;
 }
 
-.btn2:hover{
-  top: 0px;
+.btn2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  font-weight: bolder;
+  background-color: var(--cor-0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+  left: 87px;
+}
+
+.btn2:hover::after {
+  width: 62%;
 }
 
 .orcamento{

@@ -152,9 +152,16 @@
   }
 
   .equipe-advg-conteudo-colum-2 {
-    right: 370px;
+    right: 490px;
   }
 }
+
+@media (max-width: 1120px) {
+  .equipe-advg-conteudo-colum-2 {
+    right: 405px;
+  }
+}
+
 
 @media (max-width: 1010px) {
   .equipe-advg-conteudo-colum-2 {
