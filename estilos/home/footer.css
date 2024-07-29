@@ -15,7 +15,6 @@
 }
 
 .footer-contato{
-  line-height: 2.3;
 }
 
 .footer-contato h1{
@@ -23,10 +22,12 @@
   font-weight: 500;
   letter-spacing: 1.2px;
   font-size: 1.2em;
+  margin-bottom: 5px;
 }
 
 .footer-contato p{
   font-size: 0.925rem;
+  margin-bottom: 10px;
 }
 
 .footer-redes{
@@ -41,6 +42,18 @@
 
 .footer-redes img:hover {
   transform: scale(1.1);
+}
+
+.footer-atendimento h1{
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.footer-atendimento p{
+  font-size: 0.925rem;
 }
 
 @media (max-width:680px){
