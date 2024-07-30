@@ -53,7 +53,19 @@
 }
 
 .footer-atendimento p{
-  font-size: 0.925rem;
+  
+}
+
+.footer-creditos{
+  font-size: 0.85rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 680px) {
+  .footer-creditos {
+      padding-bottom: 75px;
+  }
 }
 
 @media (max-width:680px){
