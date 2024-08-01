@@ -50,13 +50,13 @@
 }
 
 .faq-lista dt::after {
-  content: "🡻";
+  content: "↓";
   margin-left: 10px;
   color: red;
   display: inline-block;
 }
 
 .faq-lista dt.active::after {
-  content: "🠉";
+  content: "↑";
   display: inline-block;
 }
