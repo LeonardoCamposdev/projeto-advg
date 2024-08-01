@@ -45,6 +45,8 @@
 
 .faq-lista dt::after {
   content: "↓";
+  margin-left: 10px;
+  color: red;
   display: inline-block;
 }
 
