@@ -7,7 +7,7 @@
 
 .introducao-conteudo{
   padding-top: 80px;
-  padding-bottom: 120px;
+  padding-bottom: 170px;
 }
 
 .span-oab{
@@ -30,5 +30,10 @@
 @media (max-width: 700px){
   .introducao-bg{
     background-position: center right;
+  }
+
+  .introducao-conteudo{
+    padding-top: 80px;
+    padding-bottom: 120px;
   }
 }
