@@ -42,15 +42,21 @@
 
 }
 
+.faq-lista dt::before {
+  content: "➔";
+  margin-right: 5px;
+  color: red;
+  display: inline-block;
+}
 
 .faq-lista dt::after {
-  content: "↓";
+  content: "🠋";
   margin-left: 10px;
   color: red;
   display: inline-block;
 }
 
 .faq-lista dt.active::after {
-  content: "↑";
+  content: "🠉";
   display: inline-block;
 }
