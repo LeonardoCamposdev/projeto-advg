@@ -33,7 +33,7 @@ export  function initAnimacaoScrollLeft(){
 
   export  function initAnimacaoScrollUp(){
     const sections = document.querySelectorAll('[data-anime="scroll-up"]');
-    const windowMetade = window.innerHeight * 0.8;
+    const windowMetade = window.innerHeight * 0.85;
     
     function animaScroll(){
       sections.forEach((section) =>{
