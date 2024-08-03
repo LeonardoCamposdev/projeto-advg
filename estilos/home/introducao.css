@@ -1,16 +1,16 @@
-.introducao-bg{
-  background: url(../../images/image-introducao.jpg);
-  background-position: center center;
-  background-repeat: none;
+.introducao-bg {
+  background: url(../../images/teste-4.jpg);
+  background-position: center top;
   background-size: cover;
+  background-attachment: fixed;
 }
 
-.introducao-conteudo{
+.introducao-conteudo {
   padding-top: 80px;
   padding-bottom: 170px;
 }
 
-.span-oab{
+.span-oab {
   display: inline-block;
   padding: 5px 11px;
   background-color: #bea7825d;
@@ -18,7 +18,7 @@
   color: var(--cor-0);
 }
 
-.introducao-conteudo p{
+.introducao-conteudo p {
   font-size: 2.3rem;
   max-width: 24ch;
   font-weight: 600;
@@ -26,13 +26,12 @@
   color: var(--cor-0);
 }
 
-
-@media (max-width: 700px){
-  .introducao-bg{
+@media (max-width: 700px) {
+  .introducao-bg {
     background-position: center center;
   }
 
-  .introducao-conteudo{
+  .introducao-conteudo {
     padding-top: 80px;
     padding-bottom: 120px;
   }
