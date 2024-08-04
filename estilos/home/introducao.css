@@ -24,7 +24,7 @@
   font-weight: 600;
   margin-bottom: 20px;
   color: var(--cor-0);
-  text-shadow: 1px 2px black;
+  text-shadow: 1px 1px black;
 }
 
 @media (max-width: 700px) {
