@@ -10,6 +10,11 @@
   font-weight: 400;
 }
 
+.equipe-advg-conteudo p{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .equipe-conteudo .contato-pessoal-buique {
   display: flex;
   align-items: center;
@@ -93,6 +98,12 @@
   position: absolute;
   right: 525px;
 }
+
+.equipe-advg-conteudo-colum-2 p{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 
 /* LI COLUM 1 */
 @media (max-width: 1335px) {
