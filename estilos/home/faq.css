@@ -17,7 +17,6 @@
 }
 
 .dt-pergunta{
-  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
   padding: 12px;
@@ -38,7 +37,7 @@
 
 .dd-resposta.active{
   display: block;
-  padding: 12px;
+  padding: 24px;
 
 }
 
