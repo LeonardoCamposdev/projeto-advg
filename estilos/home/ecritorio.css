@@ -1,9 +1,12 @@
+.escritorio-bg{
+  background-color: #F7F7F7;
+}
 .escritorio-conteudo{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .escritorio-conteudo img{
