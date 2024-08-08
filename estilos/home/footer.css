@@ -27,6 +27,11 @@
   margin-bottom: 10px;
 }
 
+.footer-contato p:hover,
+.footer-contato a:hover{
+  color: var(--cor-4);
+}
+
 .footer-atendimento h1{
   text-transform: uppercase;
   font-weight: 600;
