@@ -36,7 +36,7 @@
 
 .dt-pergunta.active{
   background-image: linear-gradient(to right, #393939, #2e2a2a, #a19a8c);
-  color: #d7d7d7;;
+  color: #d7d7d7;
 }
 
 .dt-pergunta:hover{
@@ -46,7 +46,7 @@
 .dd-resposta.active{
   display: block;
   padding: 24px;
-  background-color: #e7d4b4;
+  background-color: #d7ccba;;
 }
 
 .faq-lista dt::before {
