@@ -46,7 +46,7 @@
 .dd-resposta.active{
   display: block;
   padding: 24px;
-  background-color: #d7ccba;;
+  background-color: #d7ccba;
 }
 
 .faq-lista dt::before {

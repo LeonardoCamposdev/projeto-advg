@@ -65,6 +65,7 @@
 
 .equipe-advg {
   position: relative;
+  padding-bottom: 80px;
 }
 .equipe-advg li {
   display: grid;
