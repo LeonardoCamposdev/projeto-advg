@@ -8,6 +8,7 @@
 .area-atuacao-lista{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
   gap: 20px;
   position: relative;
   top: -115px;
@@ -52,7 +53,7 @@
 }
 
 
-@media (max-width:1350px){
+@media (max-width:1380px){
   .area-atuacao-lista{
     grid-template-columns: 1fr 1fr 1fr;
   }
