@@ -22,7 +22,6 @@
   padding: 12px;
   cursor: pointer;
   border-top: .5px solid #e1dada6c;
-
 }
 
 .dd-resposta{
@@ -41,6 +40,7 @@
 
 .dt-pergunta:hover{
   background-image: linear-gradient(to right, #393939, #2e2a2a, #a19a8c);
+  color: #d7ccba;
 }
 
 .dd-resposta.active{
