@@ -20,7 +20,7 @@
 
 .introducao-conteudo p {
   font-size: 2.3rem;
-  max-width: 24ch;
+  max-width: 19ch;
   font-weight: 600;
   margin-bottom: 20px;
   color: var(--cor-0);
@@ -47,3 +47,9 @@
   }
 }
 
+@media (max-width:427px){
+  .introducao-conteudo p {
+    max-width: 14ch;
+
+  }
+}
