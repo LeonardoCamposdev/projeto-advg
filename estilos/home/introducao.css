@@ -1,5 +1,5 @@
 .introducao-bg {
-  background: url(../../images/imagem-introdocao2.jpg);
+  background: url(../../images/teste-introducao2.jpeg);
   background-position: center top;
   background-size: cover;
   
@@ -27,6 +27,15 @@
   text-shadow: 1px 1px black;
 }
 
+.introducao-conteudo .introducao-texto{
+  font-size: 1.3rem;
+  max-width: 24ch;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--cor-0);
+  text-shadow: 1px 1px black;
+}
+
 @media (max-width: 700px) {
   .introducao-bg {
     background-position: center center;
@@ -37,3 +46,4 @@
     padding-bottom: 120px;
   }
 }
+
