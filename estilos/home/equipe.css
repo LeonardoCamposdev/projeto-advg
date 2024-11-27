@@ -13,6 +13,7 @@
 .equipe-advg-conteudo p{
   font-size: 1.1rem;
   font-weight: 600;
+  padding-bottom: 10px;
 }
 
 .equipe-conteudo .contato-pessoal-buique {
@@ -103,6 +104,12 @@
 .equipe-advg-conteudo-colum-2 p{
   font-size: 1.1rem;
   font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.equipe-advg-conteudo .advg-atuacao,
+.equipe-advg-conteudo-colum-2 .advg-atuacao{
+  font-weight: 400;
 }
 
 
