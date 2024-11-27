@@ -16,6 +16,17 @@
   padding-bottom: 10px;
 }
 
+.equipe-advg-conteudo .span-oab2,
+.equipe-advg-conteudo-colum-2 .span-oab2{
+  display: inline-block;
+  font-weight: 500;
+  padding: 5px 11px;
+  margin-bottom: 16px;
+  background-color: var(--cor-4);
+  border-radius: 4px;
+  color: var(--cor-1);
+}
+
 .equipe-conteudo .contato-pessoal-buique {
   display: flex;
   align-items: center;
