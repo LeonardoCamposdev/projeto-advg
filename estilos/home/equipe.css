@@ -155,13 +155,13 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 780px) {
   .equipe-advg-conteudo {
     left: 290px;
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 695px) {
   .equipe-advg li {
     grid-template-columns: 1fr;
     justify-items: normal;
@@ -218,7 +218,7 @@
 }
 
 
-@media (max-width: 680px) {
+@media (max-width: 695px) {
   .equipe-advg li {
     grid-template-columns: 1fr;
     justify-items: normal;
