@@ -49,6 +49,19 @@
   background-color: #d7ccba;
 }
 
+.span-resposta{
+  display: inline-block;
+  background-color: rgba(226, 34, 34, 0.884);
+  color: white;
+  padding: 4px;
+  margin: 6px 0px;
+  border-radius: 8px;
+}
+
+.span-requetios-direitos{
+  color: rgb(226, 34, 34);
+}
+
 .faq-lista dt::before {
   content: "➔";
   margin-right: 5px;
