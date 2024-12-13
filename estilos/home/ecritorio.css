@@ -9,6 +9,21 @@
   padding-bottom: 80px;
 }
 
+.escritorio-carrosel{
+  filter: drop-shadow(0px 0px 10px #000);
+  overflow: hidden;
+  max-width: 1131px;  
+  margin: 0 auto;
+  padding-top: 60px;
+  border-radius: 12px;
+}
+
+.container-carrosel {
+  display: flex;
+  transition: 0.7s ease-in-out;
+  transform: translateX(0);
+}
+
 .escritorio-conteudo img{
   height: 640px;
   border-radius: 28px;
